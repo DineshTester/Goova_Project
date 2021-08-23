@@ -7,7 +7,30 @@
     <groupId>io.github.dinesh96319</groupId>
     <artifactId>Goova_Project</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <description>Test Project</description>
+
+    <name>Test Project for Push Maven Repo</name>
+    <description>Test sample of my jar files pushing its components to the Central Repository</description>
+    <url>https://github.com/DineshTester/Goova_Project</url>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <name>Dinesh N</name>
+            <email>ndinesh.codoid@gmail.com</email>
+            <organization>com.github.DineshTester</organization>
+            <organizationUrl>https://github.com/DineshTester/</organizationUrl>
+        </developer>
+    </developers>
+    <scm>
+        <connection>scm:git:git://github.com/DineshTester/Goova_Project.git</connection>
+        <developerConnection>scm:git:ssh://github.com/DineshTester/Goova_Project.git</developerConnection>
+        <url>https://github.com/DineshTester/</url>
+    </scm>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
